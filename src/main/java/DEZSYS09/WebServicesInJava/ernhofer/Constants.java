@@ -1,4 +1,4 @@
-package com.prgguru.jersey;
+package DEZSYS09.WebServicesInJava.ernhofer;
 //Change these parameters according to your DB
 public class Constants {
 	public static String dbClass = "com.mysql.jdbc.Driver";

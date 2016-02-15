@@ -1,4 +1,4 @@
-package com.prgguru.jersey;
+package DEZSYS09.WebServicesInJava.ernhofer;
 
 import java.sql.SQLException;
 

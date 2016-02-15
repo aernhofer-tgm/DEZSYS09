@@ -1,4 +1,4 @@
-package com.prgguru.jersey;
+package DEZSYS09.WebServicesInJava.ernhofer;
 
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
