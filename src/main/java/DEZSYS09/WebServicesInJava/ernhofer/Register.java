@@ -22,13 +22,13 @@ public class Register {
 		//System.out.println("Inside doLogin "+uname+"  "+pwd);
 		int retCode = registerUser(name, uname, pwd);
 		if(retCode == 0){
-			response = Utitlity.constructJSON("register",true);
+			response = Utility.constructJSON("register",true);
 		}else if(retCode == 1){
-			response = Utitlity.constructJSON("register",false, "You are already registered");
+			response = Utility.constructJSON("register",false, "You are already registered");
 		}else if(retCode == 2){
-			response = Utitlity.constructJSON("register",false, "Special Characters are not allowed in Username and Password");
+			response = Utility.constructJSON("register",false, "Special Characters are not allowed in Username and Password");
 		}else if(retCode == 3){
-			response = Utitlity.constructJSON("register",false, "Error occured");
+			response = Utility.constructJSON("register",false, "Error occured");
 		}
 		return response;
 				
@@ -37,7 +37,7 @@ public class Register {
 	private int registerUser(String name, String uname, String pwd){
 		System.out.println("Inside checkCredentials");
 		int result = 3;
-		if(Utitlity.isNotNull(uname) && Utitlity.isNotNull(pwd)){
+		if(Utility.isNotNull(uname) && Utility.isNotNull(pwd)){
 			try {
 				if(DBConnection.insertUser(name, uname, pwd)){
 					System.out.println("RegisterUSer if");

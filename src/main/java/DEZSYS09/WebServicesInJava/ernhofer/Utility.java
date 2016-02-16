@@ -3,7 +3,7 @@ package DEZSYS09.WebServicesInJava.ernhofer;
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
 
-public class Utitlity {
+public class Utility {
 	/**
 	 * Null check Method
 	 * 

@@ -18,9 +18,9 @@ public class Login {
 	public String doLogin(@QueryParam("username") String uname, @QueryParam("password") String pwd){
 		String response = "";
 		if(checkCredentials(uname, pwd)){
-			response = Utitlity.constructJSON("login",true);
+			response = Utility.constructJSON("login",true);
 		}else{
-			response = Utitlity.constructJSON("login", false, "Incorrect Email or Password");
+			response = Utility.constructJSON("login", false, "Incorrect Email or Password");
 		}
 	return response;		
 	}
@@ -35,7 +35,7 @@ public class Login {
 	private boolean checkCredentials(String uname, String pwd){
 		System.out.println("Inside checkCredentials");
 		boolean result = false;
-		if(Utitlity.isNotNull(uname) && Utitlity.isNotNull(pwd)){
+		if(Utility.isNotNull(uname) && Utility.isNotNull(pwd)){
 			try {
 				result = DBConnection.checkLogin(uname, pwd);
 				//System.out.println("Inside checkCredentials try "+result);
