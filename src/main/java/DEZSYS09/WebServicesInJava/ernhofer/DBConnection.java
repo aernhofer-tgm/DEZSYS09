@@ -55,9 +55,8 @@ public class DBConnection {
 		} catch (SQLException sqle) {
 			throw sqle;
 		} catch (Exception e) {
-			// TODO Auto-generated catch block
 			if (dbConn != null) {
-				dbConn.close();
+				dbConn.close(); //Closes the Connection
 			}
 			throw e;
 		} finally {
