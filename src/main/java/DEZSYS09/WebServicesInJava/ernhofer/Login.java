@@ -13,14 +13,17 @@ public class Login {
 	// Path: http://localhost/<appln-folder-name>/login/dologin
 	@Path("/dologin")
 	// Produces JSON as response
-	@Produces(MediaType.APPLICATION_JSON) 
-	// Query parameters are parameters: http://localhost/<appln-folder-name>/login/dologin?username=abc&password=xyz
+	//@Produces(MediaType.APPLICATION_JSON)
+    @Produces(MediaType.TEXT_PLAIN)
+    // Query parameters are parameters: http://localhost/<appln-folder-name>/login/dologin?username=abc&password=xyz
 	public String doLogin(@QueryParam("username") String uname, @QueryParam("password") String pwd){
 		String response = "";
 		if(checkCredentials(uname, pwd)){
-			response = Utility.constructJSON("login",true);
+			//response = Utility.constructJSON("login",true);
+            response = "Login erfolgreich! Willkommen, sie sind als " + uname + " angemeldet!";
 		}else{
-			response = Utility.constructJSON("login", false, "Incorrect Email or Password");
+			//response = Utility.constructJSON("login", false, "Incorrect Email or Password");
+            response = "Login fehlgeschlagen! Email und Password stimmen nicht ueberein!";
 		}
 	return response;		
 	}
@@ -40,7 +43,6 @@ public class Login {
 				result = DBConnection.checkLogin(uname, pwd);
 				//System.out.println("Inside checkCredentials try "+result);
 			} catch (Exception e) {
-				// TODO Auto-generated catch block
 				//System.out.println("Inside checkCredentials catch");
 				result = false;
 			}

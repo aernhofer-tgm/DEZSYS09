@@ -46,7 +46,7 @@ public class DBConnection {
 			Statement stmt = dbConn.createStatement();
 			String query = "SELECT * FROM user WHERE username = '" + uname
 					+ "' AND password=" + "'" + pwd + "'";
-			//System.out.println(query);
+			//System.out.println("Query: "+query);
 			ResultSet rs = stmt.executeQuery(query);
 			while (rs.next()) {
 				//System.out.println(rs.getString(1) + rs.getString(2) + rs.getString(3));

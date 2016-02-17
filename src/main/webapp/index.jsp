@@ -5,7 +5,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Ernis Web Service</title>
     </head>
     <body>
         <h1>Web Service by Andi Ernhofer</h1>
