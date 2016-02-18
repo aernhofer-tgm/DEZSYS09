@@ -87,14 +87,16 @@ public class DBConnection {
 				e.printStackTrace();
 			}
 			Statement stmt = dbConn.createStatement();
-			String query = "INSERT into user(name, username, password) values('"+name+ "',"+"'"
-					+ uname + "','" + pwd + "')";
-			//System.out.println(query);
-			int records = stmt.executeUpdate(query);
-			//System.out.println(records);
-			//When record is successfully inserted
-			if (records > 0) {
-				insertStatus = true;
+			if(name != null && uname != null && pwd != null) {
+				String query = "INSERT into user(name, username, password) values('" + name + "'," + "'"
+						+ uname + "','" + pwd + "')";
+				//System.out.println(query);
+				int records = stmt.executeUpdate(query);
+				//System.out.println(records);
+				//When record is successfully inserted
+				if (records > 0) {
+					insertStatus = true;
+				}
 			}
 		} catch (SQLException sqle) {
 			//sqle.printStackTrace();
