@@ -23,12 +23,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet.jsp</groupId>
-            <artifactId>jsp-api</artifactId>
-            <version>2.1</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
             <groupId>com.sun.jersey</groupId>
             <artifactId>jersey-bundle</artifactId>
             <version>1.18</version>
@@ -54,15 +48,20 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>tomcat</groupId>
+            <artifactId>catalina</artifactId>
+            <version>5.5.23</version>
+        </dependency>
     </dependencies>
 
     <build>
-        <defaultGoal>clean install test tomcat:run</defaultGoal>
+        <defaultGoal>clean install test tomcat7:run</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.0</version>
+                <version>2.2</version>
             </plugin>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
