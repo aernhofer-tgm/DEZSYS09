@@ -53,6 +53,11 @@
             <artifactId>catalina</artifactId>
             <version>5.5.23</version>
         </dependency>
+	<dependency>
+	 <groupId>xml-apis</groupId>
+	 <artifactId>xml-apis</artifactId>
+	 <version>1.0.b2</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -62,6 +67,18 @@
                 <groupId>org.apache.tomcat.maven</groupId>
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
+                <executions>
+                    <execution>
+                     <id>tomcat-run</id>
+                     <goals>
+                     <goal>run</goal>
+                     </goals>
+                     <phase>pre-integration-test</phase>
+                     <configuration>
+                        <port>19090</port>
+                     </configuration>
+                    </execution>
+                </executions>
             </plugin>
             <plugin>
                 <artifactId>maven-war-plugin</artifactId>
