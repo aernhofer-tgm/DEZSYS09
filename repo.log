@@ -1,0 +1,403 @@
+commit 0757e59ab8dc35fd9221e6a0bc6bc6219178836d
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 22:31:53 2016 +0100
+
+    File Strukture
+
+ doc/Protokoll/Protokoll09.pdf | Bin 0 -> 1066858 bytes
+ doc/Protokoll09.docx          | Bin 404118 -> 0 bytes
+ doc/Protokoll09.pdf           | Bin 1066858 -> 0 bytes
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 03afaadaa25811cb38f381c59f2372e058769b93
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 22:29:07 2016 +0100
+
+    Final Protokoll changes
+
+ doc/Protokoll09.docx | Bin 397472 -> 404118 bytes
+ doc/Protokoll09.pdf  | Bin 0 -> 1066858 bytes
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c080b438c4b701df44ccc21697d0ee2aba09c706
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 19:32:52 2016 +0100
+
+    added JavaDoc
+
+ .../WebServicesInJava/ernhofer/Constants.html      | 310 +++++++++++
+ .../WebServicesInJava/ernhofer/DBConnection.html   | 337 ++++++++++++
+ doc/DEZSYS09/WebServicesInJava/ernhofer/Login.html | 271 ++++++++++
+ .../WebServicesInJava/ernhofer/Register.html       | 273 ++++++++++
+ .../WebServicesInJava/ernhofer/Utility.html        | 328 ++++++++++++
+ .../WebServicesInJava/ernhofer/package-frame.html  |  24 +
+ .../ernhofer/package-summary.html                  | 156 ++++++
+ .../WebServicesInJava/ernhofer/package-tree.html   | 139 +++++
+ doc/LoginTest.html                                 | 272 ++++++++++
+ doc/Protokoll09.docx                               | Bin 370870 -> 397472 bytes
+ doc/allclasses-frame.html                          |  24 +
+ doc/allclasses-noframe.html                        |  24 +
+ doc/constant-values.html                           | 122 +++++
+ doc/deprecated-list.html                           | 122 +++++
+ doc/help-doc.html                                  | 223 ++++++++
+ doc/index-files/index-1.html                       | 145 ++++++
+ doc/index-files/index-2.html                       | 143 +++++
+ doc/index-files/index-3.html                       | 133 +++++
+ doc/index-files/index-4.html                       | 135 +++++
+ doc/index-files/index-5.html                       | 129 +++++
+ doc/index-files/index-6.html                       | 129 +++++
+ doc/index-files/index-7.html                       | 129 +++++
+ doc/index.html                                     |  74 +++
+ doc/overview-frame.html                            |  22 +
+ doc/overview-summary.html                          | 133 +++++
+ doc/overview-tree.html                             | 140 +++++
+ doc/package-frame.html                             |  20 +
+ doc/package-list                                   |   2 +
+ doc/package-summary.html                           | 131 +++++
+ doc/package-tree.html                              | 135 +++++
+ doc/script.js                                      |  30 ++
+ doc/stylesheet.css                                 | 574 +++++++++++++++++++++
+ 32 files changed, 4829 insertions(+)
+
+commit 9680dd5235438c01fcaedeed9b8c71e23bc7d913
+Merge: 2b4b4b4 c71d1ff
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 19:31:53 2016 +0100
+
+    Merge remote-tracking branch 'origin/next-try-maven' into next-try-maven
+
+commit 2b4b4b44b409c594d46897f989b712b538f67cc6
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 19:31:34 2016 +0100
+
+    added JavaDoc
+
+ .../WebServicesInJava/ernhofer/Constants.html      | 310 +++++++++++
+ .../WebServicesInJava/ernhofer/DBConnection.html   | 337 ++++++++++++
+ doc/DEZSYS09/WebServicesInJava/ernhofer/Login.html | 271 ++++++++++
+ .../WebServicesInJava/ernhofer/Register.html       | 273 ++++++++++
+ .../WebServicesInJava/ernhofer/Utility.html        | 328 ++++++++++++
+ .../WebServicesInJava/ernhofer/package-frame.html  |  24 +
+ .../ernhofer/package-summary.html                  | 156 ++++++
+ .../WebServicesInJava/ernhofer/package-tree.html   | 139 +++++
+ doc/LoginTest.html                                 | 272 ++++++++++
+ doc/Protokoll09.docx                               | Bin 370870 -> 397472 bytes
+ doc/allclasses-frame.html                          |  24 +
+ doc/allclasses-noframe.html                        |  24 +
+ doc/constant-values.html                           | 122 +++++
+ doc/deprecated-list.html                           | 122 +++++
+ doc/help-doc.html                                  | 223 ++++++++
+ doc/index-files/index-1.html                       | 145 ++++++
+ doc/index-files/index-2.html                       | 143 +++++
+ doc/index-files/index-3.html                       | 133 +++++
+ doc/index-files/index-4.html                       | 135 +++++
+ doc/index-files/index-5.html                       | 129 +++++
+ doc/index-files/index-6.html                       | 129 +++++
+ doc/index-files/index-7.html                       | 129 +++++
+ doc/index.html                                     |  74 +++
+ doc/overview-frame.html                            |  22 +
+ doc/overview-summary.html                          | 133 +++++
+ doc/overview-tree.html                             | 140 +++++
+ doc/package-frame.html                             |  20 +
+ doc/package-list                                   |   2 +
+ doc/package-summary.html                           | 131 +++++
+ doc/package-tree.html                              | 135 +++++
+ doc/script.js                                      |  30 ++
+ doc/stylesheet.css                                 | 574 +++++++++++++++++++++
+ 32 files changed, 4829 insertions(+)
+
+commit c71d1ffd6bff9f4a6d1d9a422978169d9ca7a5b8
+Merge: 6c5b7a6 778d29e
+Author: aernhofer-tgm <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 19:08:47 2016 +0100
+
+    Merge pull request #2 from aernhofer-tgm/adding-debian-build
+    
+    Merge remote-tracking branch 'refs/remotes/origin/next-try-maven' int…
+
+commit 778d29e43bbd672983a6bc30f3f179a1987466b8
+Merge: 6cc41af 6c5b7a6
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 19:05:40 2016 +0100
+
+    Merge remote-tracking branch 'refs/remotes/origin/next-try-maven' into adding-debian-build
+
+commit 6c5b7a68e32cfe36a506a2bd7d1e8a30f9038bd8
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 19:04:37 2016 +0100
+
+    Structured pom.xml
+
+ pom.xml | 24 ++++++++++++------------
+ 1 file changed, 12 insertions(+), 12 deletions(-)
+
+commit 6cc41afcd1e55e317901c7b1501ef8b17c3824ca
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 18:11:33 2016 +0100
+
+    First debian settings
+
+ DEZSYS09.iml |  7 ++++++-
+ pom.xml      | 15 +++++++--------
+ 2 files changed, 13 insertions(+), 9 deletions(-)
+
+commit 3430a2bac4791a8681296b70daf4e2add0c66c14
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 15:33:55 2016 +0100
+
+    Added Tests
+
+ doc/Protokoll09.docx | Bin 365016 -> 370870 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 230f71f84349a0750cc7bf6299d844aa059dfa64
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 13:18:04 2016 +0100
+
+    Added registration checking
+
+ doc/Protokoll09.docx                               | Bin 360679 -> 365016 bytes
+ .../WebServicesInJava/ernhofer/DBConnection.java   |  18 ++++++++++--------
+ 2 files changed, 10 insertions(+), 8 deletions(-)
+
+commit 460e53ed4e192f33ddfe0f6aefc2f44a34098882
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Thu Feb 18 08:02:15 2016 +0100
+
+    First Tests
+
+ doc/Protokoll09.docx | Bin 280184 -> 360679 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5c70579e6eedc3ed3153c694aa833df5eb35d0e1
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Wed Feb 17 20:38:15 2016 +0100
+
+    Protokoll and adaptions in code
+
+ DEZSYS09.iml                                       |   4 +++-
+ doc/Protokoll09.docx                               | Bin 280118 -> 280184 bytes
+ pom.xml                                            |  15 ++++++++++-----
+ .../WebServicesInJava/ernhofer/DBConnection.java   |   2 +-
+ .../DEZSYS09/WebServicesInJava/ernhofer/Login.java |  12 +++++++-----
+ src/main/webapp/index.jsp                          |   2 +-
+ src/test/java/LoginTest.java                       |  21 +++++++++++++++++++++
+ 7 files changed, 43 insertions(+), 13 deletions(-)
+
+commit b6d727c09cfdab8d203b8311bacaaed5d8f8f5c6
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Wed Feb 17 08:10:03 2016 +0100
+
+    Updated Protokoll
+
+ doc/Protokoll09.docx | Bin 196834 -> 280118 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 5973f0cf330564424e437b6335c2da87b7a99732
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Tue Feb 16 19:36:23 2016 +0100
+
+    Updated Utility.java
+
+ doc/Protokoll09.docx                               | Bin 196205 -> 196834 bytes
+ .../DEZSYS09/WebServicesInJava/ernhofer/Login.java |   6 +--
+ .../WebServicesInJava/ernhofer/Register.java       |  10 ++--
+ .../WebServicesInJava/ernhofer/Utility.java        |  56 +++++++++++++++++++++
+ .../WebServicesInJava/ernhofer/Utitlity.java       |  56 ---------------------
+ src/main/webapp/index.jsp                          |   2 +-
+ 6 files changed, 65 insertions(+), 65 deletions(-)
+
+commit a6bb4b20244c9d2c530f5e40e56b453caec52f79
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Tue Feb 16 19:03:04 2016 +0100
+
+    created Vagrant
+
+ .gitignore                                         |   1 +
+ doc/Protokoll09.docx                               | Bin 0 -> 196205 bytes
+ .../WebServicesInJava/ernhofer/Constants.java      |   5 ++---
+ .../WebServicesInJava/ernhofer/DBConnection.java   |   3 +--
+ .../WebServicesInJava/ernhofer/Register.java       |   1 -
+ src/main/webapp/WEB-INF/web.xml                    |   2 +-
+ vagrant/Vagrantfile                                |  21 +++++++++++++++++++++
+ vagrant/create.sql                                 |  11 +++++++++++
+ vagrant/install.sh                                 |  12 ++++++++++++
+ 9 files changed, 49 insertions(+), 7 deletions(-)
+
+commit dd6eb9fc7ed8de9d9e65070b2fdf4d59f004b32f
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Mon Feb 15 22:29:04 2016 +0100
+
+    Runnable Webapp
+
+ DEZSYS09.iml                    | 1 +
+ pom.xml                         | 9 +++++++++
+ src/main/webapp/WEB-INF/web.xml | 8 ++++----
+ 3 files changed, 14 insertions(+), 4 deletions(-)
+
+commit 606bab7a0114e2c5930d8323987b7dea947ee0eb
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Mon Feb 15 21:41:16 2016 +0100
+
+    new try intelliJ
+
+ .classpath                                         |  26 -----
+ .gitignore                                         |   4 +
+ .project                                           |  42 --------
+ .settings/.jsdtscope                               |  12 ---
+ .settings/org.eclipse.jdt.core.prefs               |   8 --
+ .settings/org.eclipse.m2e.core.prefs               |   4 -
+ .settings/org.eclipse.wst.common.component         |   9 --
+ ...eclipse.wst.common.project.facet.core.prefs.xml |   7 --
+ .../org.eclipse.wst.common.project.facet.core.xml  |  11 --
+ .../org.eclipse.wst.jsdt.ui.superType.container    |   1 -
+ .settings/org.eclipse.wst.jsdt.ui.superType.name   |   1 -
+ .settings/org.eclipse.wst.validation.prefs         |   2 -
+ DEZSYS09.iml                                       |  21 ++++
+ WebContent/META-INF/MANIFEST.MF                    |   3 -
+ WebContent/WEB-INF/web.xml                         |  17 ---
+ build/classes/.gitignore                           |   1 -
+ build/classes/com/prgguru/jersey/Constants.class   | Bin 813 -> 0 bytes
+ .../classes/com/prgguru/jersey/DBConnection.class  | Bin 3129 -> 0 bytes
+ build/classes/com/prgguru/jersey/Login.class       | Bin 1725 -> 0 bytes
+ build/classes/com/prgguru/jersey/Register.class    | Bin 2469 -> 0 bytes
+ build/classes/com/prgguru/jersey/Utitlity.class    | Bin 1365 -> 0 bytes
+ pom.xml                                            |  83 ++++++++-------
+ src/com/prgguru/jersey/Constants.java              |   9 --
+ src/com/prgguru/jersey/DBConnection.java           | 117 ---------------------
+ src/com/prgguru/jersey/Login.java                  |  55 ----------
+ src/com/prgguru/jersey/Register.java               |  71 -------------
+ src/com/prgguru/jersey/Utitlity.java               |  56 ----------
+ .../WebServicesInJava/ernhofer/Constants.java      |   9 ++
+ .../WebServicesInJava/ernhofer/DBConnection.java   | 117 +++++++++++++++++++++
+ .../DEZSYS09/WebServicesInJava/ernhofer/Login.java |  55 ++++++++++
+ .../WebServicesInJava/ernhofer/Register.java       |  71 +++++++++++++
+ .../WebServicesInJava/ernhofer/Utitlity.java       |  56 ++++++++++
+ src/main/webapp/WEB-INF/web.xml                    |  25 +++++
+ src/main/webapp/index.jsp                          |  13 +++
+ 34 files changed, 414 insertions(+), 492 deletions(-)
+
+commit 904f039cb45a7d88272ddd8982a5cfc1d27ae8ec
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Sat Feb 13 08:13:42 2016 +0100
+
+    pom
+
+ WebContent/WEB-INF/web.xml |  6 +--
+ pom.xml                    | 94 ++++++++++++++++++----------------------------
+ 2 files changed, 39 insertions(+), 61 deletions(-)
+
+commit c759f700013cf2bc5fb9f5846e80fd4dd3102744
+Author: Andi Ernhofer <erni@debian.localhost>
+Date:   Sat Feb 13 05:08:40 2016 +0100
+
+    program debian buildable
+
+ pom.xml | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+
+commit 3d7d3c96e0e77a4abe78fac702eb30e28bdbb656
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Fri Feb 12 17:37:21 2016 +0100
+
+    Updated pom.xml
+
+ pom.xml | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+
+commit f61575dec0d7fc5239e18b85cf94a157a3e3b666
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Fri Feb 12 17:22:47 2016 +0100
+
+    maven
+
+ .classpath                                         |  21 +++++--
+ .gitignore                                         |   1 +
+ .project                                           |   6 ++
+ .settings/org.eclipse.jdt.core.prefs               |   1 +
+ .settings/org.eclipse.m2e.core.prefs               |   4 ++
+ .settings/org.eclipse.wst.common.component         |   1 +
+ ...eclipse.wst.common.project.facet.core.prefs.xml |   7 +++
+ .../org.eclipse.wst.common.project.facet.core.xml  |   1 +
+ .settings/org.eclipse.wst.validation.prefs         |   2 +
+ WebContent/WEB-INF/lib/asm-3.1.jar                 | Bin 43033 -> 0 bytes
+ WebContent/WEB-INF/lib/gson-2.2.4.jar              | Bin 190418 -> 0 bytes
+ WebContent/WEB-INF/lib/jackson-core-asl-1.9.2.jar  | Bin 228286 -> 0 bytes
+ WebContent/WEB-INF/lib/jackson-jaxrs-1.9.2.jar     | Bin 18323 -> 0 bytes
+ .../WEB-INF/lib/jackson-mapper-asl-1.9.2.jar       | Bin 765648 -> 0 bytes
+ WebContent/WEB-INF/lib/jackson-xc-1.9.2.jar        | Bin 27075 -> 0 bytes
+ WebContent/WEB-INF/lib/jersey-client-1.18.jar      | Bin 133900 -> 0 bytes
+ WebContent/WEB-INF/lib/jersey-core-1.18.jar        | Bin 479316 -> 0 bytes
+ WebContent/WEB-INF/lib/jersey-json-1.18.jar        | Bin 165338 -> 0 bytes
+ WebContent/WEB-INF/lib/jersey-server-1.18.jar      | Bin 613715 -> 0 bytes
+ WebContent/WEB-INF/lib/jersey-servlet-1.18.jar     | Bin 127123 -> 0 bytes
+ WebContent/WEB-INF/lib/jettison-1.1.jar            | Bin 67758 -> 0 bytes
+ WebContent/WEB-INF/lib/jsr311-api-1.1.1.jar        | Bin 46367 -> 0 bytes
+ .../lib/mysql-connector-java-5.1.17-bin.jar        | Bin 787920 -> 0 bytes
+ build/classes/.gitignore                           |   1 +
+ pom.xml                                            |  68 +++++++++++++++++++++
+ 25 files changed, 107 insertions(+), 6 deletions(-)
+
+commit c030c87519c2314094448d06b51c4aadc9d70e98
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Fri Feb 12 11:19:21 2016 +0100
+
+    Runnable Rest
+    
+    http://localhost:8080/DEZSYS09
+
+ .project                                   | 2 +-
+ .settings/org.eclipse.wst.common.component | 6 +++---
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+commit 333909d7c4946295b30c152fc6771eb0b14f78dc
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Fri Feb 12 10:26:27 2016 +0100
+
+    Initial Commit
+
+ .classpath                                         |  17 +++
+ .project                                           |  36 +++++++
+ .settings/.jsdtscope                               |  12 +++
+ .settings/org.eclipse.jdt.core.prefs               |   7 ++
+ .settings/org.eclipse.wst.common.component         |   8 ++
+ .../org.eclipse.wst.common.project.facet.core.xml  |  10 ++
+ .../org.eclipse.wst.jsdt.ui.superType.container    |   1 +
+ .settings/org.eclipse.wst.jsdt.ui.superType.name   |   1 +
+ WebContent/META-INF/MANIFEST.MF                    |   3 +
+ WebContent/WEB-INF/lib/asm-3.1.jar                 | Bin 0 -> 43033 bytes
+ WebContent/WEB-INF/lib/gson-2.2.4.jar              | Bin 0 -> 190418 bytes
+ WebContent/WEB-INF/lib/jackson-core-asl-1.9.2.jar  | Bin 0 -> 228286 bytes
+ WebContent/WEB-INF/lib/jackson-jaxrs-1.9.2.jar     | Bin 0 -> 18323 bytes
+ .../WEB-INF/lib/jackson-mapper-asl-1.9.2.jar       | Bin 0 -> 765648 bytes
+ WebContent/WEB-INF/lib/jackson-xc-1.9.2.jar        | Bin 0 -> 27075 bytes
+ WebContent/WEB-INF/lib/jersey-client-1.18.jar      | Bin 0 -> 133900 bytes
+ WebContent/WEB-INF/lib/jersey-core-1.18.jar        | Bin 0 -> 479316 bytes
+ WebContent/WEB-INF/lib/jersey-json-1.18.jar        | Bin 0 -> 165338 bytes
+ WebContent/WEB-INF/lib/jersey-server-1.18.jar      | Bin 0 -> 613715 bytes
+ WebContent/WEB-INF/lib/jersey-servlet-1.18.jar     | Bin 0 -> 127123 bytes
+ WebContent/WEB-INF/lib/jettison-1.1.jar            | Bin 0 -> 67758 bytes
+ WebContent/WEB-INF/lib/jsr311-api-1.1.1.jar        | Bin 0 -> 46367 bytes
+ .../lib/mysql-connector-java-5.1.17-bin.jar        | Bin 0 -> 787920 bytes
+ WebContent/WEB-INF/web.xml                         |  17 +++
+ build/classes/com/prgguru/jersey/Constants.class   | Bin 0 -> 813 bytes
+ .../classes/com/prgguru/jersey/DBConnection.class  | Bin 0 -> 3129 bytes
+ build/classes/com/prgguru/jersey/Login.class       | Bin 0 -> 1725 bytes
+ build/classes/com/prgguru/jersey/Register.class    | Bin 0 -> 2469 bytes
+ build/classes/com/prgguru/jersey/Utitlity.class    | Bin 0 -> 1365 bytes
+ src/com/prgguru/jersey/Constants.java              |   9 ++
+ src/com/prgguru/jersey/DBConnection.java           | 117 +++++++++++++++++++++
+ src/com/prgguru/jersey/Login.java                  |  55 ++++++++++
+ src/com/prgguru/jersey/Register.java               |  71 +++++++++++++
+ src/com/prgguru/jersey/Utitlity.java               |  56 ++++++++++
+ 34 files changed, 420 insertions(+)
+
+commit 5e4e295163144f81ca46be798b20cf6275f44a90
+Author: Andreas Ernhofer <aernhofer@student.tgm.ac.at>
+Date:   Fri Feb 12 10:26:17 2016 +0100
+
+    :neckbeard: Added .gitattributes & .gitignore files
+
+ .gitattributes | 17 +++++++++++++++++
+ .gitignore     | 47 +++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 64 insertions(+)
